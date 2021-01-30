@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <!--START HEADER MENU/LOGO-->
+    <header></header>
+    <!--END HEADER MENU/LOGO-->
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
