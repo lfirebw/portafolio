@@ -31,8 +31,8 @@
                         <v-card-title><h1>{{ this.currentProject.title }}</h1></v-card-title>
                         <v-card-text>{{ this.currentProject.description }}</v-card-text>
                         <v-card-actions>
-                            <v-row justify="center">
-                                <v-col v-for="link in currentProject.links" :key="link" class="text-center">
+                            <v-row justify="center" v-if="currentProject.links != null">
+                                <v-col  v-for="(link,n) in currentProject.links" :key="n" class="text-center">
                                     <v-btn rounded target="_blank" :href="link.href" elevation="1">{{ link.name }}</v-btn>
                                 </v-col>
                             </v-row>
@@ -63,7 +63,7 @@ export default {
             this.currentProject.title = item.title
             this.currentProject.images = item.images
             this.currentProject.description = item.description
-            this.currentProject.links = item.links
+            this.currentProject.links = item.links != null ? item.links : null
         }
     },
     created(){
