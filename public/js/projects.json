@@ -1,0 +1,114 @@
+{
+    "1": {
+        "href":"/project/1",
+        "src": "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_1.jpg", 
+        "lazysrc": "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_1.jpg",
+        "title":"Página de aterrizaje para SmartKnowledge Solutions",
+        "description": "Landing Page realizado para promocionar becas de estudios que ofrecía la empresa SmartKnowledge Solutions en sus plataformas virtuales. El proyecto se realizó desde 0 con HTML, CSS3 y Javascript ES6, además se realizó algunas configuraciones en el backend con PHP 7, puesto que se requería guardar información en la base de datos MySQL.",
+        "images":[
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_1.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_2.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_3.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_4.jpg"
+        ],
+        "links":null
+    },
+    "2": {
+        "href":"/project/2",
+        "src": "https://emmyseco.com/wp-content/uploads/2021/04/BWScreenshot_1.jpg", 
+        "lazysrc": "https://emmyseco.com/wp-content/uploads/2021/04/BWScreenshot_1.jpg",
+        "title":"BraveWolf WebSite",
+        "description": "Sitio web oficial de la empresa desarrolladora de videojuegos, la web está realizado desde 0 con un diseño personalizado para la marca. Las tecnología utilizadas fueron JavaScript, JQuery 3, CSS3 y HTML5 en el frontend y un poco de backend en PHP 7 para la interactividad de algunos componentes de la página que necesitaban guardar y recibir información.",
+        "images":[
+            "https://emmyseco.com/wp-content/uploads/2021/04/BWScreenshot_1.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/BWScreenshot_2.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/BWScreenshot_3.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/BWScreenshot_4.jpg",
+        ],
+        "links":[
+            {
+                "name":"Link hacia la web",
+                "href":"https://bravewolfdev.com/main"
+            }
+        ]
+    },
+    "3": {
+        "href":"/project/3",
+        "src": "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_1-1.jpg", 
+        "lazysrc": "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_1-1.jpg",
+        "title":"BraveWolf Office",
+        "description": "Aplicación web para la empresa desarrolladora de videojuego BraveWolf, en el cual fue creado para gestionar todos los procesos de los sistemas web de sus productos, además de monitorear y administrar el recurso humano, todo en un solo lugar con compatibilidad en todos los dispositivos móvil y navegadores web. La solución está hecho con el framework original de la empresa, con base de la estructura FireFramework v1 (Framework personal) y complementado con la tecnología de JavaScript ES6, JQuery, CSS3, HTML5, PHP 7 y VueJS.",
+        "images":[
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_1-1.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_2-1.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_3-1.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_4-1.jpg"
+        ],
+        "links":null
+    },
+    "4": {
+        "href":"/project/4",
+        "src": "https://emmyseco.com/wp-content/uploads/2021/04/DSOScreenshot_1.jpg", 
+        "lazysrc": "https://emmyseco.com/wp-content/uploads/2021/04/DSOScreenshot_1.jpg",
+        "title":"DarkStory WebSite",
+        "description": "Página web para el videojuego DarkStory 2D online, un sitio web para conectar con todos los jugadores de la comunidad del juego, el sitio web está creado con la tecnología de JavaScript ES6, CSS3, HTML 5 para el Frontend y Backend PHP 7.",
+        "images":[
+            "https://emmyseco.com/wp-content/uploads/2021/04/DSOScreenshot_1.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/DSOScreenshot_2.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/DSOScreenshot_3.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/DSOScreenshot_4.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/DSOScreenshot_5.jpg"
+        ],
+        "links":[
+            {
+                "name":"Link hacia la web",
+                "href":"https://darkstory2d.com/"
+            }
+        ]
+    },
+    "5": {
+        "href":"/project/5",
+        "src": "https://emmyseco.com/wp-content/uploads/2021/04/FFScreenshot_1.jpg", 
+        "lazysrc": "https://emmyseco.com/wp-content/uploads/2021/04/FFScreenshot_1.jpg",
+        "title":"FireFramework PHP",
+        "description": "Framework personal realizado con la tecnología PHP para proyectos propios y de terceros que no requieren mucha complejidad. La tecnologia esta inspirada en framework como Laravel y CodeIgniter con la arquitectura MVC, el proyecto se encuentra disponible para todos ya que es OpenSource.",
+        "images":[
+            "https://emmyseco.com/wp-content/uploads/2021/04/FFScreenshot_1.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/FFScreenshot_2.jpg"
+        ],
+        "links":[
+            {
+                "name":"Link del repositorio",
+                "href":"https://github.com/lfirebw/fireframework"
+            }
+        ]
+    },
+    "6": {
+        "href":"/project/6",
+        "src": "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_1-2.jpg",
+        "lazysrc": "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_1-2.jpg",
+        "title":"SmartManager ERP",
+        "description": "Aplicación web de gestión administrativa de la empresa SmartKnowledge Solutions donde la solución ayuda a la empresa a gestionar todos los recursos, productos, entre otros. Las tecnologías aplicadas fueron JavaScript ES6, CSS3, HTML 5, MySQL y PHP 7. El sistema posee diversos módulos modificados a la medida de la empresa, haciendo una herramienta muy utilizada por la empresa para comercializar sus productos de manera más óptima y organizada.",
+        "images":[
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_1-2.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_2-2.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_2-2.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_3-2.jpg"
+        ],
+        "links":null
+    },
+    "7": {
+        "href":"/project/7",
+        "src": "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_1-3.jpg", 
+        "lazysrc": "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_1-3.jpg",
+        "title":"Amaracon System",
+        "description": "Amaracon System es una solución web construida con ASP.NET en C# con MVC 5, complementado con JavaScript ES6, HTML5 y CSS3. El sistema gestiona proyectos de inspecciones de suelos y otros en Nueva York, EE. UU., donde pueden administrar sus recursos y productos, existen diferentes módulos desde mantenimientos hasta de facturación, todo incluidos en un mismo software.",
+        "images":[
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_1-3.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_5.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_2-3.jpg",
+            "https://emmyseco.com/wp-content/uploads/2021/04/Screenshot_3-3.jpg"
+        ],
+        "links":null
+    }
+}
