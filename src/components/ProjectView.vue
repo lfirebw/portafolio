@@ -5,6 +5,40 @@
             <v-divider vertical class="mx-4"></v-divider>
             <span class="subheading">{{ this.currentProject.title }}</span>
         </v-toolbar>
+        <!--START IMAGE VIEW-->
+        <div class="text-center">
+        <v-dialog v-model="dialog" max-width="1440px" >
+            <v-card>
+                <v-card-title class="headline grey lighten-2">
+                    Project Image
+                </v-card-title>
+
+                <v-card-text>
+                    <v-row justify="center">
+                        <v-img
+                        :src="imageModal.src"
+                        :lazy-src="imageModal.lazysrc"
+                        
+                        >
+                        <template v-slot:placeholder>
+                            <v-row
+                            class="fill-height ma-0"
+                            align="center"
+                            justify="center"
+                            >
+                            <v-progress-circular
+                                indeterminate
+                                color="grey lighten-5"
+                            ></v-progress-circular>
+                            </v-row>
+                        </template>
+                        </v-img>
+                    </v-row>
+                </v-card-text>
+            </v-card>
+        </v-dialog>
+        </div>
+        <!--END IMAGE VIEW-->
         <v-container>
             <v-row>
                 <v-col md="4" sm="6">
@@ -18,7 +52,7 @@
                                                 absolute
                                                 color="#036358"
                                             >
-                                                <v-btn><v-icon>mdi-magnify-plus-outline</v-icon></v-btn>
+                                                <v-btn @click="showDialog(i)"><v-icon>mdi-magnify-plus-outline</v-icon></v-btn>
                                             </v-overlay>
                                         </v-fade-transition>
                                 </v-carousel-item>
@@ -45,29 +79,48 @@
     </section>
 </template>
 <script>
-import JSONProjects from '@/assets/projects.json'
+// import JSONProjects from '@/assets/projects.json'
 export default {
     data(){
         return {
+            dialog: false,
+            imageModal:{
+                src:null,
+                lazysrc:null
+            },
             currentProject:{
                 "title":"",
                 "description": "",
                 "images":[],
                 "links":[]
-            }
+            },
+            JSONProjects: []
         }
     },
     methods:{
         findProject(id){
-            const item = JSONProjects[id]
+            const item = this.JSONProjects[id]
             this.currentProject.title = item.title
             this.currentProject.images = item.images
             this.currentProject.description = item.description
             this.currentProject.links = item.links != null ? item.links : null
+        },
+        showDialog(key=0){
+            if(this.currentProject.images != null && Object.keys(this.currentProject.images).length > 0){
+                this.imageModal.src = this.currentProject.images[key]
+                this.imageModal.lazysrc = this.currentProject.images[key]
+                this.dialog = true
+            }
         }
     },
     created(){
-        this.findProject(this.$route.params.id)
+        // do it
+    },
+    mounted(){
+        this.axios.get(String.prototype.concat(process.env.BASE_URL,"js/projects.json")).then((response) => {
+            this.JSONProjects = response.data;
+            this.findProject(this.$route.params.id)
+        });
     }
 }
 </script>
